@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="inscription.css">
+</head>
+<body>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+
+		<input type="submit" value="Submit" onclick="submitForm(event)">
+	</form>
+
+	<script>
+		function submitForm(event) {
+			event.preventDefault();
+			let name = document.getElementById("name").value;
+			let email = document.getElementById("email").value;
+			let password = document.getElementById("password").value;
+			console.log("Name: " + name);
+			console.log("Email: " + email);
+			console.log("Password: " + password);
+			// Here you can add the code to submit the form data to a server using AJAX or fetch()
+		}
+	</script>
+</body>
+</html>

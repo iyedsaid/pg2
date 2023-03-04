@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Maquillage pour maman et bébé</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="maman et bebe .css">
+  </head>
+  <body>
+    <header>
+      <h1>Maquillage pour maman et bébé</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Produits pour maman</a></li>
+        <li><a href="#">Produits pour bébé</a></li>
+        <li><a href="#">À propos</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Produits pour maman</h2>
+        <p>Nous proposons une large gamme de produits de maquillage pour les mamans, adaptés à tous les types de peau. De la BB cream pour un teint éclatant au mascara pour un regard profond, en passant par les rouges à lèvres longue tenue, vous trouverez tout ce dont vous avez besoin pour être belle en toute occasion.</p>
+      </section>
+      <section>
+        <h2>Produits pour bébé</h2>
+        <p>Parce que la peau de bébé est fragile et délicate, nous avons sélectionné pour vous des produits doux et naturels, sans parfum ni allergène. Des crèmes hydratantes pour le visage et le corps aux huiles pour le bain, en passant par les lingettes nettoyantes, nos produits sont spécialement conçus pour prendre soin de la peau sensible de votre bébé.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Maquillage pour maman et bébé - Tous droits réservés</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> parapharmacie </title>
+	<link rel="stylesheet" href="projet.css">
+    
+</head>
+
+<body>
+<header class="main-head">
+        <nav>
+            <h1 id="logo">parapharmacie</h1>
+            <ul>
+                <li> <a href="#">Acceuil</a></li>
+                <li><a href="visage.html">Visage</a></li>
+                <li><a href="cheveux.html">Cheveux</a></li>
+                <li><a href="maman et bébé.html">Maman et Bébé</a></li>
+                <li> <a href="corps.html">Corps</a></li>
+                <li><a href="inscription.html">Se connecter</a></li>
+            </ul>
+           
+        </nav>
+        
+
+    </header>
+	<div class="slider">
+      <div class="slides">
+            <div class="slide"><img src="3.png" alt="" width="1000px" height="300px"  /></div>
+            <div class="slide"><img src="1.jpg" alt=""width="1000px" height="300px"  /></div>
+            <div class="slide"><img src="2.png" alt="" width="1000px" height="300px"  /></div>
+            <div class="slide"><img src="5.jpg" alt=""width="1000px" height="300px"  /></div>
+     </div>   
+      </div> 
+	 <h2> En promotion </h2> 
+    
+</body>
+</html>
