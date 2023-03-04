@@ -1,123 +1,80 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Liste de produits cosmétiques pour femmes</title>
-  <link rel="stylesheet" href="projet.css">
-  <link rel="stylesheet" href="maman.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> parapharmacie </title>
+	<link rel="stylesheet" href="projet.css">
     
-	<style>/* styles pour l'en-tête */
-        header {
-          background-color: #ffffff;
-          border-bottom: 1px solid #cccccc;
-          padding: 10px;
-        }
-        
-        header h1 {
-          font-size: 36px;
-          
-          color: #333333;
-          margin: 0;
-        }
-        
-        /* styles pour la navigation */
-        nav {
-          background-color: #f2f2f2;
-          padding: 10px;
-        }
-        
-        nav ul {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-        }
-        
-        nav li {
-          display: inline-block;
-          margin-right: 20px;
-        }
-        
-        nav a {
-          color: #333333;
-          text-decoration: none;
-        }
-        
-        nav a:hover {
-          color: #ffffff;
-          background-color: #333333;
-        }
-        
-        /* styles pour les produits */
-        .product-list {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-        }
-        
-        .product-list li {
-          display: inline-block;
-          width: 30%;
-          margin: 1.5%;
-          vertical-align: top;
-          background-color: #ffffff;
-          box-shadow: 0px 2px 2px #cccccc;
-        }
-        
-        .product-list li:hover {
-          box-shadow: 0px 2px 2px #999999;
-        }
-        
-        .product-list li img {
-          display: block;
-          width: 100%;
-          height: auto;
-        }
-        
-        .product-list li h3 {
-          font-size: 24px;
-          color: #333333;
-          margin: 10px;
-        }
-        
-        .product-list li .price {
-          font-size: 18px;
-          color: #cc0000;
-          margin: 10px;
-        }
-        
-        .product-list li .description {
-          font-size: 16px;
-          color: #666666;
-          margin: 10px;
-        }
-        </style>
 </head>
+<style>
+    .slider {
+        width: 1000px;
+        overflow: hidden;
+        margin: 70px auto;
+    }
+    .slides {
+        width: calc(1000px * 4);
+        animation: glisse 20s infinite;
+    }
+    .slide {
+        float: left;
+    }
+    @keyframes glisse {
+      
+        0% {
+            transform: translate(0);
+        }
+        10% {
+            transform: translate(-500px);
+        }
+        33% {
+            transform: translate(-500px);
+        }
+        46% {
+            transform: translate(-1000px);
+        }
+        50% {
+            transform: translate(-1500px);
+        }
+        75% {
+            transform: translate(-1900px);
+        }
+        100% {
+            transform: translate(0);
+        }
+    }
+</style>
 <body>
-	<header>
-		<h1>Liste de produits cosmétiques pour femmes</h1>
-	</header>
-</header>
-<div style="display: block;">
-	<main>
-		
-		<ul class="product-list">
-			<li>
-				<img src="maman%20photo/mamancos5.jpg" alt="produit 1">
-        <p class="price">29,99 dt</p>
-				<p class="description">Soin hydratant lumiére destresse ,lisse et illumine le teint aux extraits de litchi et thé blanc pour peaux normales 50ml.</p>
-			</li>
-      <li>
-				<img src="C:\Users\hayfa\Desktop\pg2\m\6.webp" alt="produit 2">
-        <p class="price">70,500 dt</p>
-				<p class="description">Pour estomper des vergetures existantes ou prévenir leur apparition durant la grossesse, la crème anti-vergetures Vichy Action Intégrale s'avère tout indiquée. Protecteur et correctif à la fois, le produit est en outre réputé pour sa haute tolérance..</p>
-			</li>
-			<li>
-				<img src="C:\Users\hayfa\Desktop\pg2\m\4.jpg" alt="Produit 3">
-				<p class="price">49,99 dt</p>
-				<p class="description">un gommage profond du corps .</p>
-			</li>
-			
+<header class="main-head">
+        <nav>
+            <h1 id="logo">parapharmacie</h1>
+            <ul>
+                <li> <a href="#">Acceuil</a></li>
+                <li><a href="visage.html">Visage</a></li>
+                <li><a href="cheveux.html">Cheveux</a></li>
+                <li><a href="maman et bébé.html">Maman et Bébé</a></li>
+                <li> <a href="corps.html">Corps</a></li>
+                <li><a href="inscription.html">Se connecter</a></li>
+            </ul>
+           
+        </nav>
+        
+
+    </header>
+	<div class="slider">
+      <div class="slides">
+            <div class="slide"><img src="image para/3.png" alt="" width="1000px" height="300px"  /></div>
+            <div class="slide"><img src="image para/1.jpg" alt=""width="1000px" height="300px"  /></div>
+            <div class="slide"><img src="image para/2.png" alt="" width="1000px" height="300px"  /></div>
+            <div class="slide"><img src="image para/5.jpg" alt=""width="1000px" height="300px"  /></div>
+     </div>   
+      </div> 
+	 <h2> En promotion </h2> 
+    
+</body>
+</html>
 		
 				
 </div>   
